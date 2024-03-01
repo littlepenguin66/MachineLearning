@@ -4,15 +4,9 @@ import torch.optim as optim
 import numpy as np
 from torch.utils.data import TensorDataset, DataLoader
 import matplotlib.pyplot as plt
+from matplotlib import font_manager
 
-# 设置随机种子以保持结果一致性
-torch.manual_seed(0)
-np.random.seed(0)
 
-# 创建一个简单的非线性数据集
-n = 200  # 样本数量
-X = (np.random.rand(n, 1) * 80) - 20  # 生成-20到60之间的随机数
-y = np.sin(X) + np.random.randn(n, 1) * 0.2  # 非线性关系加上噪声
 
 # 将numpy数组转换为PyTorch张量，并移动到GPU
 X_tensor = torch.from_numpy(X).float().cuda()
@@ -60,6 +54,11 @@ with torch.no_grad():
     y_test_pred = model(X_test)
     test_error = criterion(y_test_pred, y_test)
 print(f'测试集上的均方误差: {test_error.item()}')
+
+# 加载微软雅黑字体
+font_path = 'Microsoft YaHei.ttf'  # 确保字体文件在当前目录下
+font_manager.fontManager.addfont(font_path)
+plt.rcParams['font.family'] = 'Microsoft YaHei'  # 设置默认字体
 
 # 绘制数据集和拟合曲线
 plt.figure()
