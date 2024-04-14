@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d95b8561-f032-4fa0-ad86-507f2237e180" name="Changes" comment="add dataAnalyze">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataAnalyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataAnalyze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microsoft Yahei.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataAnalyze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "littlepenguin66"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -49,6 +56,12 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/littlepenguin66/MachineLearning.git",
+    "accountId": "f344f061-8941-443d-8c7f-4b9ff8b7b0fc"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -69,7 +82,7 @@
     "Python.setup.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "mian",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "E:/PyCharm Community Edition 2023.2.1/MachineLearning",
     "node.js.detected.package.eslint": "true",
@@ -84,7 +97,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -102,6 +116,7 @@
       <workItem from="1709356088851" duration="52000" />
       <workItem from="1709356149317" duration="67000" />
       <workItem from="1709356355083" duration="1126000" />
+      <workItem from="1713083617318" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <option name="closed" value="true" />
